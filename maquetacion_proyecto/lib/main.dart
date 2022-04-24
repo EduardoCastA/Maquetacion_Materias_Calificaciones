@@ -117,7 +117,7 @@ class _InformacionMateria extends State<InformacionMateria> {
           children: <Widget>[
             getCalificaciones(widget.materia.parciales),
             Container(
-              height: 40,
+              height: 50,
               child: ListView(
                 padding: const EdgeInsets.all(8),
                 children: [
